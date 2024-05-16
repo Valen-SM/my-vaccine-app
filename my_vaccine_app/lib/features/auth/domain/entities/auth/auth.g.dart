@@ -17,7 +17,7 @@ class AuthAdapter extends TypeAdapter<Auth> {
       for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
     };
     return Auth(
-      isLoggedIn: fields[0] as bool,
+      isLoggedIn: fields[0] as User,
     );
   }
 

@@ -5,7 +5,7 @@ import 'package:my_vaccine_app/app/di/injector.dart';
 import 'package:my_vaccine_app/app/routes/route_utils.dart';
 import 'package:my_vaccine_app/app/routes/screens/not_found_page.dart';
 import 'package:my_vaccine_app/app/routes/screens/products.dart';
-import 'package:my_vaccine_app/features/auth/presentation/bloc/auth_bloc.dart';
+import 'package:my_vaccine_app/features/auth/presentation/controllers/auth_bloc.dart';
 import 'package:my_vaccine_app/features/auth/presentation/screens/home_screen.dart';
 import 'package:my_vaccine_app/features/auth/presentation/screens/login_screen.dart';
 

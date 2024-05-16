@@ -5,7 +5,7 @@ import 'package:my_vaccine_app/features/auth/data/repositories/auth_repository_i
 import 'package:my_vaccine_app/features/auth/domain/repositories/auth_repository.dart';
 import 'package:my_vaccine_app/features/auth/domain/use_cases/is_logged_in_use_case.dart';
 import 'package:my_vaccine_app/features/auth/domain/use_cases/login_use_case.dart';
-import 'package:my_vaccine_app/features/auth/presentation/bloc/auth_bloc.dart';
+import 'package:my_vaccine_app/features/auth/presentation/controllers/auth_bloc.dart';
 
 final injector = GetIt.instance;
 
